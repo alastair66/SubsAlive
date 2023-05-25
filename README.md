@@ -9,3 +9,5 @@ Before running the script change the permissions for the script:
 
 Syntax for executing the script.
 "./tool.sh [target.com]"
+
+The script will get update in near future with new functions
