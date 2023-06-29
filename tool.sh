@@ -12,7 +12,7 @@ fi
 
 
 echo "[+] Scanning for sub-domains..."
-assetfinder --subs-only $url >> $url/recon/target.txt
+subfinder --subs-only $url >> $url/recon/target.txt
 cat $url/recon/target.txt | grep $1 >> $url/recon/final.txt
 echo "[+] Scanning for alive subs..."
 cat $url/recon/final.txt | httprobe >> $url/recon/alive-subs.txt
