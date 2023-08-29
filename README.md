@@ -10,4 +10,4 @@ Before running the script change the permissions for the script:
 Syntax for executing the script.
 "./tool.sh [target.com]"
 
-The script will get change in near future with new updates
+The script will get updated in near future with new updates
